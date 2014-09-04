@@ -10,4 +10,6 @@
 
 @interface KAViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
