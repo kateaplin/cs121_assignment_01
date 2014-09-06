@@ -107,4 +107,9 @@
     [self startNewRound];
     [self updateLabels];
 }
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
 @end
