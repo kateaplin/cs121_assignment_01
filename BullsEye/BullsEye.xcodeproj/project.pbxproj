@@ -21,6 +21,7 @@
 		29045BF719B82F2E0011B3A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29045BD919B82F2E0011B3A6 /* UIKit.framework */; };
 		29045BFF19B82F2E0011B3A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29045BFD19B82F2E0011B3A6 /* InfoPlist.strings */; };
 		29045C0119B82F2E0011B3A6 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29045C0019B82F2E0011B3A6 /* BullsEyeTests.m */; };
+		29045C0C19BBB6430011B3A6 /* KAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29045C0B19BBB6430011B3A6 /* KAAboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		29045BFC19B82F2E0011B3A6 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		29045BFE19B82F2E0011B3A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29045C0019B82F2E0011B3A6 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		29045C0A19BBB6430011B3A6 /* KAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAAboutViewController.h; sourceTree = "<group>"; };
+		29045C0B19BBB6430011B3A6 /* KAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAAboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				29045BE719B82F2E0011B3A6 /* Main.storyboard */,
 				29045BEA19B82F2E0011B3A6 /* KAViewController.h */,
 				29045BEB19B82F2E0011B3A6 /* KAViewController.m */,
+				29045C0A19BBB6430011B3A6 /* KAAboutViewController.h */,
+				29045C0B19BBB6430011B3A6 /* KAAboutViewController.m */,
 				29045BED19B82F2E0011B3A6 /* Images.xcassets */,
 				29045BDC19B82F2E0011B3A6 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29045C0C19BBB6430011B3A6 /* KAAboutViewController.m in Sources */,
 				29045BEC19B82F2E0011B3A6 /* KAViewController.m in Sources */,
 				29045BE619B82F2E0011B3A6 /* KAAppDelegate.m in Sources */,
 				29045BE219B82F2E0011B3A6 /* main.m in Sources */,
